@@ -1,0 +1,11 @@
+section {
+  text-align: center; }
+  section .color {
+    height: 50px;
+    background: blue; }
+    section .color img {
+      width: 100%;
+      border-right: 15px solid white;
+      border-left: 15px solid white; }
+
+/*# sourceMappingURL=main.css.map */

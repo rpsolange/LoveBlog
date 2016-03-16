@@ -1,0 +1,21 @@
+@import "base/_base";
+@import "Helpers/_mixins";
+@import "Helpers/_variables";
+@import "Helpers/_helpers";
+@import "Layouts/_sidebar";
+@import "Layouts/_slider";
+@import "Layouts/_footer";
+@import "Layouts/_header";
+
+section{
+	text-align: center;
+	.color{
+		height: 50px;
+		background: blue;
+		img{
+			width: 100%;
+			border-right: 15px solid white;
+			border-left: 15px solid white;
+		}
+	}
+}
