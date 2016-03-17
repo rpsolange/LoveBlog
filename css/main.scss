@@ -7,15 +7,36 @@
 @import "Layouts/_footer";
 @import "Layouts/_header";
 
-section{
+.uno{
 	text-align: center;
+	height: 100%;
 	.color{
 		height: 50px;
 		background: blue;
+	}
+	.container{
 		img{
 			width: 100%;
 			border-right: 15px solid white;
 			border-left: 15px solid white;
+			position: relative;
+			bottom: 50px;
 		}
+	}
+}
+footer{
+	background-color: blue;
+	.container{
+		border-right: 15px solid white;
+		border-left: 15px solid white;
+		background: yellow;
+	}
+}
+.dos{
+	background: green;
+	.container{
+		background: red;
+		border-right: 15px solid white;
+		border-left: 15px solid white;
 	}
 }
