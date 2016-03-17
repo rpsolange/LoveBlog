@@ -1,42 +1,10 @@
-@import "base/_base";
-@import "Helpers/_mixins";
 @import "Helpers/_variables";
+@import "base/_base";
 @import "Helpers/_helpers";
+@import "Helpers/_mixins";
+@import "base/_header";
+@import "base/_footer";
 @import "Layouts/_sidebar";
 @import "Layouts/_slider";
-@import "Layouts/_footer";
-@import "Layouts/_header";
-
-.uno{
-	text-align: center;
-	height: 100%;
-	.color{
-		height: 50px;
-		background: blue;
-	}
-	.container{
-		img{
-			width: 100%;
-			border-right: 15px solid white;
-			border-left: 15px solid white;
-			position: relative;
-			bottom: 50px;
-		}
-	}
-}
-footer{
-	background-color: blue;
-	.container{
-		border-right: 15px solid white;
-		border-left: 15px solid white;
-		background: yellow;
-	}
-}
-.dos{
-	background: green;
-	.container{
-		background: red;
-		border-right: 15px solid white;
-		border-left: 15px solid white;
-	}
-}
+@import "Pages/_home";
+@import "Pages/_about-us";

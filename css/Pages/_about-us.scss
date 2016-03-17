@@ -1,0 +1,23 @@
+.content-about{
+	.contenido{
+		margin-top: 3%;
+		.author{
+			padding: 2%;
+			border: 1px solid $gray-light;
+			width: 100%;
+		}
+		.about-parrafo{
+			padding-right: 5%;
+		}
+		.texto{
+			margin: 3% 0%;
+		}
+		blockquote{
+			border-left: 10px solid $orange;
+			padding: 0 20px;
+			font-size: 13.5px;
+			color: $orange;
+			margin: 50px;
+		}
+	}
+}

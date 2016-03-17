@@ -1,0 +1,28 @@
+header{
+	font-family: 'Open Sans Condensed', sans-serif;
+	.navbar-default {
+		border: none;
+		background-color: white;
+	}
+	.navbar-header{
+		a{
+			h1{
+				font-size: 3em;
+			}
+			span{
+				color: $orange-light;
+			}
+		}
+	}
+	.navbar-default .navbar-nav>li>a{
+		color: $gray-light;
+		&:hover{
+			color: $orange-dark;
+		}
+	} 
+	.navbar-nav{
+		padding-top: 2%;
+	    font-size: 1.4em;
+	    font-weight: bold;
+	}
+}

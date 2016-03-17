@@ -1,28 +1,144 @@
-.uno {
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #E7663C; }
+
+.borde {
+  border-right: 15px solid white;
+  border-left: 15px solid white; }
+
+.btn-orange {
+  background-color: #E7663C;
+  display: block;
+  padding: 2%;
+  width: 20%;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center; }
+  .btn-orange:hover {
+    text-decoration: none; }
+
+.title-bg {
+  background: #F1AE9D; }
+  .title-bg .container {
+    background: #E7663C; }
+    .title-bg .container h2 {
+      color: white; }
+
+header {
+  font-family: 'Open Sans Condensed', sans-serif; }
+  header .navbar-default {
+    border: none;
+    background-color: white; }
+  header .navbar-header a h1 {
+    font-size: 3em; }
+  header .navbar-header a span {
+    color: #F1AE9D; }
+  header .navbar-default .navbar-nav > li > a {
+    color: #BFBFBF; }
+    header .navbar-default .navbar-nav > li > a:hover {
+      color: #C96A56; }
+  header .navbar-nav {
+    padding-top: 2%;
+    font-size: 1.4em;
+    font-weight: bold; }
+
+footer {
+  margin-top: 2%;
+  background-color: #F1AE9D; }
+  footer .container {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: white;
+    background: #E7663C; }
+    footer .container h2 {
+      color: white;
+      margin-bottom: 10%;
+      text-transform: uppercase; }
+    footer .container .single_footer {
+      padding-right: 7.5%; }
+      footer .container .single_footer .red-social {
+        display: block;
+        margin-top: 10%; }
+
+.title-sidebar {
+  padding: 3% 0%; }
+  .title-sidebar .bg-header {
+    background-image: url("../images/heading-bg.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 20px;
+    margin-top: 0.5%; }
+  .title-sidebar h4, .title-sidebar h3 {
+    margin: 0; }
+
+.list-sidebar {
+  list-style-type: none;
+  padding-left: 0; }
+  .list-sidebar a {
+    color: #3D3D3D; }
+
+.gallery img {
+  border: 1px solid #C96A56;
+  margin-bottom: 2%; }
+
+.header-div {
   text-align: center;
   height: 100%; }
-  .uno .color {
+  .header-div .div-orange {
     height: 50px;
-    background: blue; }
-  .uno .container img {
+    background: #F1AE9D; }
+  .header-div .container img {
     width: 100%;
     border-right: 15px solid white;
     border-left: 15px solid white;
     position: relative;
     bottom: 50px; }
 
-footer {
-  background-color: blue; }
-  footer .container {
-    border-right: 15px solid white;
-    border-left: 15px solid white;
-    background: yellow; }
+.service_area .title {
+  margin-bottom: 2%; }
+  .service_area .title h3, .service_area .title img {
+    display: inline-block; }
+  .service_area .title img {
+    vertical-align: top;
+    margin-top: 4%; }
+  .service_area .title h3 {
+    text-transform: uppercase;
+    margin: 0 0 0 4%;
+    width: 80%;
+    line-height: 35px; }
 
-.dos {
-  background: green; }
-  .dos .container {
-    background: red;
-    border-right: 15px solid white;
-    border-left: 15px solid white; }
+.from_blog {
+  margin-bottom: 2%; }
+  .from_blog .single_blog_post img {
+    width: 100%; }
+  .from_blog .single_blog_post .blog_post_meta {
+    padding: 0% 8%;
+    border: 1px solid #BFBFBF;
+    border-top: none; }
+    .from_blog .single_blog_post .blog_post_meta h3 {
+      color: #BFBFBF;
+      text-transform: uppercase; }
+    .from_blog .single_blog_post .blog_post_meta h5 {
+      color: #C96A56; }
+
+.content-about .contenido {
+  margin-top: 3%; }
+  .content-about .contenido .author {
+    padding: 2%;
+    border: 1px solid #BFBFBF;
+    width: 100%; }
+  .content-about .contenido .about-parrafo {
+    padding-right: 5%; }
+  .content-about .contenido .texto {
+    margin: 3% 0%; }
+  .content-about .contenido blockquote {
+    border-left: 10px solid #E7663C;
+    padding: 0 20px;
+    font-size: 13.5px;
+    color: #E7663C;
+    margin: 50px; }
 
 /*# sourceMappingURL=main.css.map */

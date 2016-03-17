@@ -1,0 +1,57 @@
+.header-div{
+	text-align: center;
+	height: 100%;
+	.div-orange{
+		height: 50px;
+		background: $orange-light;
+	}
+	.container{
+		img{
+			width: 100%;
+			border-right: 15px solid white;
+			border-left: 15px solid white;
+			position: relative;
+			bottom: 50px;
+		}
+	}
+}
+
+.service_area{
+	.title{
+		margin-bottom: 2%;
+		h3, img{
+			display: inline-block;
+		}
+		img{
+			vertical-align: top;
+			margin-top: 4%;
+		}
+		h3{
+			text-transform: uppercase;
+			margin: 0 0 0 4%;
+			width: 80%;
+			line-height: 35px;
+		}
+	}
+}
+
+.from_blog{
+	margin-bottom: 2%;
+	.single_blog_post{
+			img{
+				width: 100%;
+			}
+		.blog_post_meta{
+			padding: 0% 8%;
+			border: 1px solid $gray-light;
+			border-top: none;
+			h3{
+				color: $gray-light;
+				text-transform: uppercase;
+			}
+			h5{
+				color: $orange-dark;
+			}
+		}
+	}
+}
