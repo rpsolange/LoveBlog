@@ -1,0 +1,55 @@
+.blog{
+	margin: 3% 0%;
+	.icono{
+		position: absolute;
+		left: -75px;
+	}	
+	.post{
+		width: 100%;
+	}
+	.info-blog{
+		padding: 3% 0%;
+	}
+	.t-gray{
+		p{
+			color: $gray-light;
+		}
+	}
+	.bg-header{
+		margin-bottom: 6%;
+	}
+	.bg-quote{
+		background-image: url("../images/quote_bg.png");
+		padding: 5% 3% 3%;
+		margin-bottom: 4%;
+		img{
+			vertical-align: top;
+			position: relative;
+			bottom: 20px;
+		}
+		p{
+			display: inline-block;
+			width: 95%;
+		}
+	}
+	.freebies{
+		h4{
+			margin-top: 0;
+		}
+		a{
+			color: $gray-light;
+			font-size: 0.8em;
+		}
+		p{
+			margin: 2% 0% 3%;
+		}
+	}
+	.btn-orange{
+		@include btn-orange;
+		height: 25px;
+		margin-right: 1%;
+		display: inline-flex;
+		align-items: center;
+		border: 1px solid $orange-dark;
+	}
+}

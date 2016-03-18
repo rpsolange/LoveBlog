@@ -1,0 +1,16 @@
+@mixin btn-orange{
+	background-color: $orange;
+	display: block;
+	padding: 2%;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+@mixin ph-style{
+	color: $orange;
+  	font-weight: bold;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 1.2em;
+}

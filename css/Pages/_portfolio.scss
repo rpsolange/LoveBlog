@@ -1,0 +1,40 @@
+.category{
+	padding: 1%;
+	h3{
+		color: $dark;
+		display: inline-block;
+		margin-right: 1%;
+	}
+	a{
+		color: $gray-light;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 1.3em;
+		padding: 0.5% 1%;
+		&:hover{
+			background-color: $orange;
+			color: white;
+		}
+	}
+}
+.movie{
+	margin: 2% 0%;
+	img{
+		width: 100%;
+		padding: 1%;
+		border: 1px solid $gray-light;
+	}
+	.title-movie{
+		border: 1px solid $gray-light;
+		margin-top: 3%;
+		text-transform: uppercase;
+		padding-left: 3%;
+		h4{
+			color: $gray-light;
+		}
+		h5{
+			color: $orange-dark;
+		}
+	}
+}

@@ -17,6 +17,10 @@
 }
 
 .service_area{
+	.btn-orange{
+		@include btn-orange;
+		width: 20%;
+	}
 	.title{
 		margin-bottom: 2%;
 		h3, img{

@@ -1,10 +1,12 @@
 @import "Helpers/_variables";
-@import "base/_base";
-@import "Helpers/_helpers";
 @import "Helpers/_mixins";
+@import "base/_base";
 @import "base/_header";
 @import "base/_footer";
 @import "Layouts/_sidebar";
 @import "Layouts/_slider";
 @import "Pages/_home";
 @import "Pages/_about-us";
+@import "Pages/_blog";
+@import "Pages/_portfolio";
+@import "Pages/_contact";

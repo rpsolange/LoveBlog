@@ -1,3 +1,8 @@
+a{
+	&:hover{
+		text-decoration: none;
+	}
+}
 h1, h2, h3,h4, h5, h6{
 	font-weight: bold;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -7,21 +12,6 @@ h1, h2, h3,h4, h5, h6{
 	border-right: 15px solid white;
 	border-left: 15px solid white;
 }
-.btn-orange{
-	background-color: $orange;
-	display: block;
-	padding: 2%;
-	width: 20%;
-	text-transform: uppercase;
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: white;
-	font-weight: bold;
-	text-align: center;
-	&:hover{
-		text-decoration: none;
-	}
-}
-
 .title-bg{
 	background: $orange-light;
 	.container{
@@ -30,4 +20,11 @@ h1, h2, h3,h4, h5, h6{
 			color: white;
 		}
 	}
+}
+.bg-header{
+	background-image: url("../images/heading-bg.png");	
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 20px;
+	margin-top: 0.5%;
 }

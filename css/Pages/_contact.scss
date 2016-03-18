@@ -1,0 +1,47 @@
+.contact-us{
+	margin: 3% 0%;
+	.mapa{
+		width: 95%;
+		margin: auto;
+	}
+	.info{
+		padding: 4% 0%;
+		h4{
+			font-family: sans-serif,open-sans;
+			font-weight: normal;
+		    margin-top: 25px;
+    		margin-bottom: 0px;
+		}
+		ul{
+		    margin-top: 8%;
+		    list-style-type: none;
+		    padding-left: 0;
+		}
+		input{
+			width: 55%;
+		}
+		textarea{
+			width: 90%;
+		}
+		input, textarea{
+			border-radius: 0;
+			border-color: $orange-dark;
+			color: $orange-dark;
+   			&::-webkit-input-placeholder {
+  				@include ph-style;
+			}
+			&::-moz-placeholder {
+				@include ph-style;
+			}
+			&:-ms-input-placeholder{
+				@include ph-style;
+			}
+		}
+		.btn-orange{
+			@include btn-orange;
+			width: 90%;
+			margin: 3% 0%;
+			font-size: 1.6em;
+		}
+	}
+}
